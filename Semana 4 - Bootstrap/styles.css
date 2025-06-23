@@ -1,0 +1,67 @@
+/* ---------- Estilos personalizados ---------- */
+
+/* Cambia el color principal del botón */
+.btn-primary {
+  background-color: #0e004e;
+  border-color: #0e004e;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #002fff;
+  transform: scale(1.05); /* Animación al pasar el mouse */
+}
+
+/* Tarjetas con efecto sutil */
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 59, 0.737);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Botón secundario */
+.btn-outline-secondary:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilo para el título principal con Orbitron */
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  color: #0e004e;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer más definido */
+footer {
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 576px) {
+  body {
+    background-color: #f1f1f1;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+    color: #1800b2;
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .navbar {
+    font-size: 0.95rem;
+  }
+}
